@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication19.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="StyleSheet1.css" rel="stylesheet" /> 
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <asp:Menu ID="Menu1" runat="server">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/WebForm2.aspx" Text="About Us" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="ContactUs" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="Feedback" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="Home" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/WebForm3.aspx" Text="Image" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="NEWS" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="Students" Value="New Item"></asp:MenuItem>
+                        <asp:MenuItem Text="Department" Value="Department">
+                            <asp:MenuItem Text="IER" Value="IER"></asp:MenuItem>
+                            <asp:MenuItem Text="UIMS" Value="New Item"></asp:MenuItem>
+                            <asp:MenuItem Text="UIIT" Value="New Item"></asp:MenuItem>
+                            <asp:MenuItem Text="DVM" Value="New Item"></asp:MenuItem>
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <h1>yo</h1>
+</body>
+</html>

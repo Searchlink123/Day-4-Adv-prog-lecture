@@ -1,0 +1,18 @@
+﻿body {
+}
+.PageHeading {
+    font-size : 16pt;
+    font-family :Verdana;
+    color :#621d1d;
+}
+.button {
+    font-size:12pt;
+    font-family:Verdana;
+    font-weight:bold;
+}
+.textbox {
+    font-size:10pt;
+    font-family:Verdana;
+    font-weight:bold;
+    color:red;
+}
